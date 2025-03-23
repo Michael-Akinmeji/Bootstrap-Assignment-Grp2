@@ -1,15 +1,20 @@
-.row {
-    background-color: aquamarine;
+body {
+    font-family: mulish;
 }
+
+.row {
+    /* background-color: aquamarine; */
+}
+
 .col {
     /* background-color: red; */
 }
 .col-8 {
-    background-color: blanchedalmond;
+    /* background-color: rgb(223, 75, 42); */
 }
 
 .col-4 {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .col-md-2 {
@@ -18,7 +23,7 @@
 
 /* Variable */
 
-.list-group{
+.list-group {
     background-color:#363740;
     color: #A4A6B3;
     text-align: left;
@@ -28,6 +33,17 @@
     border: none !important;
     text-align: left !important;
     background-color:#363740;
+    color: #A4A6B3;
+}
+
+.charte {
+    border: 1px solid #DFE0EB !important;
+    border-right: none !important;
+}
+
+.list-group-item.rte {
+    border: 1px solid #DFE0EB !important;
+    background-color:#FFFFFF;
     color: #A4A6B3;
 }
 
@@ -46,4 +62,17 @@
 .border {
     border: solid 1px #3751FF !important;
     color: #3751FF;
+}
+
+.cts p{
+    font-family: mulish;
+    font-size: 16px;
+    color: #9FA2B4;
+}
+
+.cts h5{
+    font-family: mulish;
+    font-size: 24px;
+    font-weight: 700;
+    color: #252733;
 }
