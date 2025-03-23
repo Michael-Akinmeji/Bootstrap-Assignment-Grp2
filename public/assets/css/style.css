@@ -2,7 +2,7 @@
     background-color: aquamarine;
 }
 .col {
-    background-color: red;
+    /* background-color: red; */
 }
 .col-8 {
     background-color: blanchedalmond;
@@ -41,4 +41,9 @@
     padding-left: 16px;
     font-weight: 700;
     font-size: 19px;
+}
+
+.border {
+    border: solid 1px #3751FF !important;
+    color: #3751FF;
 }
