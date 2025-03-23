@@ -17,24 +17,19 @@ body {
     /* background-color: blueviolet; */
 }
 
-.col-md-2 {
-    background-color: blue;
-}
 
 /* Variable */
 
-.list-group {
+/* .list-group {
     background-color:#363740;
     color: #A4A6B3;
     text-align: left;
-}
+} */
 
 .list-group-item {
-    border: none !important;
     text-align: left !important;
-    background-color:#363740;
-    color: #A4A6B3;
-}
+    color:#363740;
+} 
 
 .charte {
     border: 1px solid #DFE0EB !important;
@@ -75,4 +70,44 @@ body {
     font-size: 24px;
     font-weight: 700;
     color: #252733;
+}
+
+.badge.urgent {
+    background-color: #FEC400;
+    font-family: mulish;
+    font-weight: 700;
+    font-size: 11px;
+    align-items: center;
+}
+.badge.new {
+    background-color: #29CC97;
+    font-family: mulish;
+    font-weight: 700;
+    font-size: 11px;
+    align-items: center;
+}
+.badge.default {
+    background-color: #F0F1F7;
+    color: #9FA2B4;
+    font-family: mulish;
+    font-weight: 700;
+    font-size: 11px;
+    align-items: center;
+}
+
+button {
+    text-decoration: none !important;
+}
+
+button.list-group-item-action {
+    background-color: #363740 !important;
+    border: none !important;
+
+    font-family: mulish !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+
+
+    color: #A4A6B3;
+    text-align: left;
 }
