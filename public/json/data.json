@@ -1,0 +1,7 @@
+[
+    { "label": "Unresolved", "value": 40 },
+    { "label": "Overdue", "value": 15 },
+    { "label": "Open", "value": 53 },
+    { "label": "On hold", "value": 24 }
+  ]
+  
